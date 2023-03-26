@@ -1,0 +1,51 @@
+h4{
+	color: yellow;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 60px;
+	color: red;
+}
+
+p {
+			margin-left: 20px;
+			margin-right: 20px;
+			text-align: justify;
+			color: yellowgreen;
+	}
+form > label{
+	color: red;
+}
+h1, h3, h3{
+	color: blue;
+}
+.tytul {
+	font-weight: bold;
+	color: blue;
+}
+p.tytul:first-letter{
+	color: red;
+	font-size: 20px;
+}
+p:before{
+	content: url("https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/32/apple-watch-blue-icon.png");
+}
+a.odsylaczG:link, a.odsylaczG:visited{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: red;
+			border-width: 2px;
+			border-style: solid;
+			border-color: #000000;
+			padding: 10px;
+			background-color: gray;
+			margin:  0px;
+		}
+		a.odsylaczG:hover{
+			color: gray;
+			background-color: red;
+		}
+		a.odsylaczG:active{
+			color: yellow;
+		}

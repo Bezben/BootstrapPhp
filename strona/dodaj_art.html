@@ -1,0 +1,11 @@
+<form action="dodaj_art.php" method="post" enctype="multipart/form-data">
+	Tytul: <input type="text" class="form-control" name="tytul" required> <br />
+	Autor: <input type="text" class="form-control" name="autor" required> <br />
+	Obraz: <label for="zdjecie" class="form-label">Zdjęcie</label>
+	<input id="fileToUpload" class="form-control" type="file" name="my_image" required><br />
+	Wstep: <textarea class="form-control" name="wstep" required></textarea> <br />
+	Tresc: <textarea class="form-control" name="tresc" required></textarea> <br />
+	<input type="submit" class="btn btn-dark my_btn" value="Dodaj artykuł do bazy">
+	<input type="reset" class="btn btn-dark my_btn" value="Resetuj">
+</form>
+<p><a href="index.php">Powrót na stronę główną</a></p>
